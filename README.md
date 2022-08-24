@@ -1,0 +1,2 @@
+# lofotenbeachcamp
+Second Tailwind site
