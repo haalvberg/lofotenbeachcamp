@@ -4,8 +4,13 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Sora', 'sans-serif'],
+      serif: ['Just Another Hand', 'serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'sunset': '#FFD400',
+      },
+    },
   },
   plugins: [],
 }
