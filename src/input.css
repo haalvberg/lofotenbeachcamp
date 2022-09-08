@@ -46,7 +46,8 @@
     border-right-width: 2.5rem;
     border-left-width: 2.5rem;
     border-bottom-width: 2.5rem;
-    border-color: rgba(255, 0, 0, 0.0)
+    border-color: rgba(255, 0, 0, 0.0);
+    background-origin: content-box;
 }
 
 .menudown {
@@ -56,8 +57,8 @@
     border-radius: 9999px;
     text-transform: uppercase;
     font-weight: 700;
-
 }
+
 
 
 

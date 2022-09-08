@@ -11,7 +11,11 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: '6rem',
+      padding: {
+        DEFAULT: '4rem',
+        sm: '4rem',
+        md: '6rem',
+      }
     },
     extend: {
       colors: {
