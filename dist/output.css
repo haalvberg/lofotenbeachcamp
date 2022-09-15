@@ -650,30 +650,6 @@ video {
   }
 }
 
-.aspect-w-16 {
-  position: relative;
-  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
-  --tw-aspect-w: 16;
-}
-
-.aspect-w-16 > * {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.aspect-h-9 {
-  --tw-aspect-h: 9;
-}
-
-.relative {
-  position: relative;
-}
-
 .order-2 {
   order: 2;
 }
@@ -686,9 +662,12 @@ video {
   float: right;
 }
 
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .mt-20 {
@@ -697,14 +676,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
 }
 
 .mb-6 {
@@ -727,8 +698,12 @@ video {
   height: 3.5rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-8 {
+  height: 2rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-60 {
@@ -739,16 +714,8 @@ video {
   height: 7rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-8 {
@@ -761,6 +728,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-2\/6 {
@@ -799,20 +770,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-x-2 {
@@ -852,16 +819,8 @@ video {
   background-size: cover;
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .bg-center {
   background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .bg-origin-content {
@@ -901,11 +860,6 @@ video {
   font-family: Just Another Hand, serif;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -937,14 +891,6 @@ video {
           text-decoration-line: underline;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
-.mix-blend-overlay {
-  mix-blend-mode: overlay;
-}
-
 @media (min-width: 768px) {
   .md\:order-3 {
     order: 3;
@@ -960,10 +906,6 @@ video {
 
   .md\:order-2 {
     order: 2;
-  }
-
-  .md\:h-60 {
-    height: 15rem;
   }
 
   .md\:h-1\/2 {
@@ -992,11 +934,6 @@ video {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
