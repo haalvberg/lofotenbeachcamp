@@ -3,7 +3,6 @@
 @tailwind utilities;
  
 
-@layer components {
 :root {
     --sunset: #FFD400;
     --sundown: #ccaa00;
@@ -60,6 +59,4 @@
     border-radius: 9999px;
     text-transform: uppercase;
     font-weight: 700;
-}
-
 }
