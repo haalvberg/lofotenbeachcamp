@@ -1,5 +1,9 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+
+@layer components {
 :root {
     --sunset: #FFD400;
     --sundown: #ccaa00;
@@ -58,11 +62,4 @@
     font-weight: 700;
 }
 
-
-
-
-
-@tailwind components;
-@tailwind utilities;
-
-
+}
