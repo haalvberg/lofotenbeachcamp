@@ -4,6 +4,7 @@ module.exports = {
     './src/**/*.{html,js}',
     './pages/**/*.{html,js}',
     './index.html',
+    './components/**/*.{html,js}',
   ],
   theme: {
     fontFamily: {
