@@ -14,14 +14,23 @@
 
 <div class="h-screen bg-cover bg-center bg-origin-content bigborder" style="background-image: url(../src/img/surf.png);">
   
-  <header class="flex justify-between items-center py-6 bg-white">
-    <a href="../"><img class="h-14" src="../src/png/lbs-logo-b.png"></a>
-    <div class="invisible md:visible ">
-      <ul class="text-black uppercase font-bold     flex gap-5">
-        <li class="transition-all underline decoration-transparent hover:decoration-black underline-offset-2" > <a href="./surf.html">     Surf</a> </li>
-        <li class="transition-all underline decoration-transparent hover:decoration-black underline-offset-2" > <a href="./camping.html">  Camping</a> </li>
-        <li class="transition-all underline decoration-transparent hover:decoration-black underline-offset-2" > <a href="./beach-bar.html" >Beach Bar</a> </li>
-      </ul>
+ <header>
+    
+    <div class="flex justify-between items-center py-6 bg-white">
+      <a href="./"><img class="h-14" src="../src/png/lbs-logo-b.png"></a>
+      
+      <div class="">
+        <ul class="text-black uppercase font-bold     hidden md:flex gap-5">
+          <li class="transition-all underline decoration-transparent hover:decoration-black underline-offset-2" > <a href="./pages/surf.html">     Surf</a> </li>
+          <li class="transition-all underline decoration-transparent hover:decoration-black underline-offset-2" > <a href="./pages/camping.html">  Camping</a> </li>
+          <li class="transition-all underline decoration-transparent hover:decoration-black underline-offset-2" > <a href="./pages/beach-bar.html" >Beach Bar</a> </li>
+        </ul>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:hidden" fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="1.5">
+        <path stroke-linecap="butt" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+
     </div>
   </header>
 
