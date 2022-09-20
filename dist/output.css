@@ -897,6 +897,11 @@ video {
   color: rgb(255 212 0 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -998,6 +1003,11 @@ video {
 .hover\:decoration-white:hover {
   -webkit-text-decoration-color: #fff;
           text-decoration-color: #fff;
+}
+
+.hover\:decoration-black:hover {
+  -webkit-text-decoration-color: #000;
+          text-decoration-color: #000;
 }
 
 @media (min-width: 768px) {
