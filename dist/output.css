@@ -922,10 +922,6 @@ video {
   text-underline-offset: 2px;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .mix-blend-overlay {
   mix-blend-mode: overlay;
 }
