@@ -35,10 +35,15 @@
   </header>
 
   <div class="relative">
-    <h1 class="text-4xl md:text-5xl uppercase font-bold text-center mix-blend-overlay fpText text-transparent bg-clip-text bg-gradient-to-br from-black to-red-600 rellax" data-rellax-speed="-3.1" data-text="Camping in the endless sunset">Camping in the endless sunset</h1>
+    <h1 class="text-4xl md:text-5xl uppercase font-bold text-center mix-blend-overlay fpText text-transparent bg-clip-text bg-gradient-to-br from-black to-red-600 rellax" data-rellax-speed="-3.1" data-rellax-mobile-speed="-2">Camping in the endless sunset</h1>
   </div>
+    <div class="wave" id="wave1" style="--i-1;"></div>
+    <div class="wave" id="wave2" style="--i-2;"></div>
+    <div class="wave" id="wave3" style="--i-3;"></div>
+    <div class="wave" id="wave4" style="--i-4;"></div>
+  <div>
 
-  <div></div>
+  </div>
 
 </div>
 
@@ -97,5 +102,22 @@
         <script>
         var rellax = new Rellax('.rellax'); 
         </script>
+
+  <script>
+    let wave1 = document.getElementById('wave1');
+    let wave2 = document.getElementById('wave2');
+    let wave3 = document.getElementById('wave3');
+    let wave4 = document.getElementById('wave4');
+
+    window.addEventListener('scroll', function(){
+      let value = window.scrollY;
+
+      wave1.style.backgroundPositionX = 400 + value * 2 + 'px';
+      wave2.style.backgroundPositionX = 300 + value * -2 + 'px';
+      wave3.style.backgroundPositionX = 200 + value * 1 + 'px';
+      wave4.style.backgroundPositionX = 100 + value * -1 + 'px';
+    })
+
+  </script>
 </body>
 </html>
