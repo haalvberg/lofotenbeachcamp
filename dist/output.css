@@ -666,10 +666,6 @@ video {
   display: none;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-14 {
   height: 3.5rem;
 }
@@ -684,6 +680,10 @@ video {
 
 .h-28 {
   height: 7rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-full {
@@ -765,6 +765,10 @@ video {
 
 .gap-y-6 {
   row-gap: 1.5rem;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .border-t-2 {
@@ -991,7 +995,7 @@ video {
 
 .wave {
   position: absolute;
-  bottom: 0;
+  bottom: -140px;
   left: 0;
   width: 100%;
   height: 100px;
@@ -1031,25 +1035,33 @@ video {
 @-webkit-keyframes animate {
   0%,100% {
     transform: translateY(0px);
+    transform: scale(1.0);
   }
 
   50% {
     transform: translateY(10px);
+    transform: scale(1.0);
   }
 }
 
 @keyframes animate {
   0%,100% {
     transform: translateY(0px);
+    transform: scale(1.0);
   }
 
   50% {
     transform: translateY(10px);
+    transform: scale(1.0);
   }
 }
 
 .fpText {
   z-index: 998;
+}
+
+.fpHeight {
+  height: calc(100vh + 120px);
 }
 
 .hover\:decoration-white:hover {
