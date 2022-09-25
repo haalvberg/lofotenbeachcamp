@@ -68,7 +68,7 @@
     width: 100%;
     height: 100px;
     max-height: 200px;
-    background: url(/png/wave.png);
+    background: url(../src/png/wave.png);
     background-size: 1000px 100px;
     animation: animate 4s ease-in-out infinite;
     animation-delay: calc(var(--i) * 0.25s);
