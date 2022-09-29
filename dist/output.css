@@ -617,12 +617,16 @@ video {
   position: relative;
 }
 
-.z-40 {
-  z-index: 40;
+.z-0 {
+  z-index: 0;
 }
 
 .z-30 {
   z-index: 30;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .order-2 {
