@@ -617,18 +617,6 @@ video {
   position: relative;
 }
 
-.z-0 {
-  z-index: 0;
-}
-
-.z-30 {
-  z-index: 30;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
 .order-2 {
   order: 2;
 }
@@ -639,11 +627,6 @@ video {
 
 .float-right {
   float: right;
-}
-
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 
 .mt-20 {
@@ -811,18 +794,6 @@ video {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
-}
-
-.bg-\[url\(\.\/src\/img\/frontpageshot\.png\)\] {
-  background-image: url(./src/img/frontpageshot.png);
-}
-
-.bg-\[url\(\'\.\/src\/img\/frontpageshot\.png\'\)\] {
-  background-image: url('./src/img/frontpageshot.png');
-}
-
 .from-black {
   --tw-gradient-from: #000;
   --tw-gradient-to: rgb(0 0 0 / 0);
@@ -948,10 +919,6 @@ video {
 
 .underline-offset-2 {
   text-underline-offset: 2px;
-}
-
-.mix-blend-overlay {
-  mix-blend-mode: overlay;
 }
 
 .transition-all {
