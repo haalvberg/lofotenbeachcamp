@@ -1057,9 +1057,9 @@ video {
     bottom: -60px;
     left: 0;
     width: auto%;
-    height: 70px;
+    height: 100px;
     background: url(../src/png/wave.png);
-    background-size: 700px 70px;
+    background-size: 1000px 100px;
     -webkit-animation: animate 4s ease-in-out infinite;
             animation: animate 4s ease-in-out infinite;
     -webkit-animation-delay: calc(var(--i) * 0.25s);
