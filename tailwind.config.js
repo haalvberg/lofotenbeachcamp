@@ -23,6 +23,11 @@ module.exports = {
       colors: {
         'sunset': '#FFD400',
       },
+      ringOffsetWidth: {
+        '3': '3px',
+        '6': '6px',
+        '10': '10px',
+      }
     },
   },
   corePlugins: {
