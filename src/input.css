@@ -71,6 +71,7 @@
     background-size: 1000px 100px;
     animation: animate 4s ease-in-out infinite;
     animation-delay: calc(var(--i) * 0.25s);
+    background-repeat: no-repeat;
 }
 
 .wave#wave1 {
