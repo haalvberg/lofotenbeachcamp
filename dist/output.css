@@ -682,6 +682,10 @@ video {
   margin-top: -1.25rem;
 }
 
+.-mb-10 {
+  margin-bottom: -2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -768,6 +772,14 @@ video {
 
 .w-2\/6 {
   width: 33.333333%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .max-w-4xl {
@@ -867,6 +879,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-t-2 {
@@ -1268,6 +1284,10 @@ input:-webkit-autofill:active {
   .md\:my-60 {
     margin-top: 15rem;
     margin-bottom: 15rem;
+  }
+
+  .md\:-mb-0 {
+    margin-bottom: -0px;
   }
 
   .md\:flex {
