@@ -1062,7 +1062,7 @@ video {
 
 .wave {
   position: absolute;
-  bottom: -200px;
+  bottom: -180px;
   left: 0;
   width: 100%;
   height: 206px;
@@ -1128,7 +1128,7 @@ video {
 }
 
 .fpHeight {
-  height: calc(100vh + 140px);
+  height: calc(100vh + 120px);
 }
 
 label {
